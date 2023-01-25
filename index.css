@@ -1,0 +1,110 @@
+.corpo{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.none{
+    height: 50px;
+    background-color: rgba(9, 9, 73, 0.863);
+}
+
+.none img{
+    position: relative;
+    left: 200px;
+    top: 10px;    
+}
+
+
+.nav ul li{
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    right: 20px;
+    margin: 0px 10px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+}
+
+ul{
+    text-align: right; 
+}
+
+.texto{
+    padding: 20px 100px;
+    text-align: center;
+
+}
+.texto h1{
+    font-size: 30px;
+    font-size: 36px;
+    color: #252525;
+}
+
+.texto p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+.gallery{
+    padding: 0px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    float: left;
+    margin: 10px;
+    
+}
+.gallery-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.gallery-text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.about{
+    background-color:#003d52 ;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat; 
+    background-position: right;
+    padding: 90px;
+    color: aliceblue;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+#contact{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+
+.maps iframe{
+    width: 100%;
+}
+.rodape{
+    background-color:  rgba(9, 9, 73, 0.863);
+    text-align: center;
+    padding: 10px;
+}
